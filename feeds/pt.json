@@ -1,145 +1,145 @@
 {
-  "maintainers": [
-    {
-      "name": "Paul Brown",
-      "github": "Bro66666"
-    },
-    {
-      "name": "Marcus Lundblad",
-      "github": "mlundblad"
-    },
-    {
-      "name": "Patrick Steil",
-      "github": "SteilDev"
-    }
-  ],
-  "sources": [
-    {
-      "name": "Carris-Metropolitana",
-      "type": "http",
-      "url": "https://api.carrismetropolitana.pt/gtfs",
-      "license": {
-        "spdx-identifier": "CC-BY-4.0"
-      },
-      "fix": true,
-      "http-options": {
-        "fetch-interval-days": 1
-      }
-    },
-    {
-      "name": "Carris",
-      "type": "mobility-database",
-      "mdb-id": "mdb-2929",
-      "license": {
-        "spdx-identifier": "CC0-1.0"
-      }
-    },
-    {
-      "name": "Metro-Lisboa",
-      "type": "http",
-      "url": "https://www.metrolisboa.pt/google_transit/googleTransit.zip",
-      "license": {
-        "spdx-identifier": "CC0-1.0"
-      }
-    },
-    {
-      "name": "Cascais-Próxima",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyck-cascaispróximaemsa"
-    },
-    {
-      "name": "Comboios-de-Portugal(CP)",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyc-cp"
-    },
-    {
-      "name": "Comboios-de-Portugal(CP)",
-      "type": "url",
-      "spec": "gtfs-rt",
-      "url": "https://rt.gtfs.baguette.pirnet.si/gtfs-rt/cp/trip_updates.pb"
-    },
-    {
-      "name": "Fergatus",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyce-fertagus"
-    },
-    {
-      "name": "Barreiro",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-transportes~colectivos~do~barreiro~pt"
-    },
-    {
-      "name": "Funchal",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-etgc-hf~urbano~hf~interurbano"
-    },
-    {
-      "name": "Algarve-Vamus",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-ey-vizur"
-    },
-    {
-      "name": "Transportes-Urbanos-de-Braga",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-transportes~urbanos~de~braga"
-    },
-    {
-      "name": "Autna",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-ez-autnatransportes"
-    },
-    {
-      "name": "Porto-STCP",
-      "type": "http",
-      "url": "https://opendata.porto.digital/dataset/horarios-paragens-e-rotas-em-formato-gtfs-stcp",
-      "function": "data_stcp_latest_resource",
-      "license": {
-        "spdx-identifier": "CC0-1.0"
-      }
-    },
-    {
-      "name": "Tavira",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyd-sobeedesce"
-    },
-    {
-      "name": "Portimao",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-ey9-vaivem"
-    },
-    {
-      "name": "Faro",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyd-pxm"
-    },
-    {
-      "name": "Albufeira-Giro",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyd-giro"
-    },
-    {
-      "name": "Olhao",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyd-circuitoolhao"
-    },
-    {
-      "name": "Apanha-me",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-eyd-apanhame"
-    },
-    {
-      "name": "Lagos-Aonda",
-      "type": "transitland-atlas",
-      "transitland-atlas-id": "f-ey9-aonda"
-    },
-    {
-      "name": "Metro-Porto",
-      "type": "http",
-      "url": "https://www.metrodoporto.pt/pages/337",
-      "function": "data_metroporto_latest_resource",
-      "license": {
-        "spdx-identifier": "CC0-1.0"
-      }
-    }
-  ]
+    "maintainers": [
+        {
+            "name": "Paul Brown",
+            "github": "Bro66666"
+        },
+        {
+            "name": "Marcus Lundblad",
+            "github": "mlundblad"
+        },
+        {
+            "name": "Patrick Steil",
+            "github": "SteilDev"
+        }
+    ],
+    "sources": [
+        {
+            "name": "Carris-Metropolitana",
+            "type": "http",
+            "url": "https://api.carrismetropolitana.pt/gtfs",
+            "license": {
+                "spdx-identifier": "CC-BY-4.0"
+            },
+            "fix": true,
+            "http-options": {
+                "fetch-interval-days": 1
+            }
+        },
+        {
+            "name": "Carris",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2929",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        },
+        {
+            "name": "Metro-Lisboa",
+            "type": "http",
+            "url": "https://www.metrolisboa.pt/google_transit/googleTransit.zip",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        },
+        {
+            "name": "Cascais-Próxima",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyck-cascaispróximaemsa"
+        },
+        {
+            "name": "Comboios-de-Portugal(CP)",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyc-cp"
+        },
+        {
+            "name": "Comboios-de-Portugal(CP)",
+            "type": "url",
+            "spec": "gtfs-rt",
+            "url": "https://rt.gtfs.baguette.pirnet.si/gtfs-rt/cp/trip_updates.pb"
+        },
+        {
+            "name": "Fergatus",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyce-fertagus"
+        },
+        {
+            "name": "Barreiro",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-transportes~colectivos~do~barreiro~pt"
+        },
+        {
+            "name": "Funchal",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-etgc-hf~urbano~hf~interurbano"
+        },
+        {
+            "name": "Algarve-Vamus",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-ey-vizur"
+        },
+        {
+            "name": "Transportes-Urbanos-de-Braga",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-transportes~urbanos~de~braga"
+        },
+        {
+            "name": "Autna",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-ez-autnatransportes"
+        },
+        {
+            "name": "Porto-STCP",
+            "type": "http",
+            "url": "https://opendata.porto.digital/dataset/horarios-paragens-e-rotas-em-formato-gtfs-stcp",
+            "function": "data_stcp_latest_resource",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        },
+        {
+            "name": "Tavira",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyd-sobeedesce"
+        },
+        {
+            "name": "Portimao",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-ey9-vaivem"
+        },
+        {
+            "name": "Faro",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyd-pxm"
+        },
+        {
+            "name": "Albufeira-Giro",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyd-giro"
+        },
+        {
+            "name": "Olhao",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyd-circuitoolhao"
+        },
+        {
+            "name": "Apanha-me",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-eyd-apanhame"
+        },
+        {
+            "name": "Lagos-Aonda",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-ey9-aonda"
+        },
+        {
+            "name": "Metro-Porto",
+            "type": "http",
+            "url": "https://www.metrodoporto.pt/pages/337",
+            "function": "data_metroporto_latest_resource",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        }
+    ]
 }
