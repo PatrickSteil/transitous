@@ -136,6 +136,7 @@
             "http-options": {
                 "fetch-interval-days": 2
             },
+            "drop-shapes": true,
             "managed-by-script": true,
             "x-mvo-id": "66-2026",
             "display-name-options": {
@@ -158,6 +159,11 @@
             },
             "managed-by-script": true,
             "x-mvo-id": "57-2026"
+        },
+        {
+            "name": "WienMobil-Rad",
+            "type": "transitland-atlas",
+            "transitland-atlas-id": "f-wienmobil~rad~vienna~gbfs"
         }
     ]
 }
